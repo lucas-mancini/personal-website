@@ -1,6 +1,9 @@
 ---
+import { Image } from 'astro:assets';
 import { iconLinks } from './Social';
 import Icon from './Icon.astro';
+import localAustraliaFlag from '../images/australia_flag.svg';
+import localAboriginalFlag from '../images/australia_aboriginal_flag.svg';
 
 const currentYear = new Date().getFullYear();
 ---
@@ -8,9 +11,14 @@ const currentYear = new Date().getFullYear();
 <footer>
 	<div class="group">
 		<p>
-			Designed & Developed in Portland with <a href="https://astro.build/">Astro</a>
-			<Icon icon="rocket-launch" size="1.2em" />
+			Crafted with <a href="https://astro.build/">Astro</a>
+			<Icon icon="rocket-launch" size="1.2em" /> framework
+			in Australia 
 		</p>
+		<div class="flags">
+			<Image src={localAustraliaFlag} alt="Flag of Australia." height={20} />
+			<Image src={localAboriginalFlag} alt="Aboriginal flag of Australia." height={20} />
+		</div>
 		<p>&copy; {currentYear} Lucas Mancini</p>
 	</div>
 	<p class="socials">
@@ -49,6 +57,7 @@ const currentYear = new Date().getFullYear();
 		display: flex;
 		flex-direction: column;
 		gap: 0.5rem;
+		align-items: center;
 	}
 
 	.socials {
@@ -56,6 +65,13 @@ const currentYear = new Date().getFullYear();
 		justify-content: center;
 		gap: 1rem;
 		flex-wrap: wrap;
+	}
+
+	.flags {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 0.2rem;
 	}
 
 	@media (min-width: 50em) {
@@ -69,6 +85,7 @@ const currentYear = new Date().getFullYear();
 			flex-direction: row;
 			gap: 1rem;
 			flex-wrap: wrap;
+			align-items: center;
 		}
 
 		.socials {

@@ -68,19 +68,33 @@ const projects = (await getCollection('work'))
 				</div>
 			</section>
 
-			<!-- <section class="section with-background bg-variant">
+			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
+					<h3>About</h3>
+					<p>Learn more about myself and my background.</p>
+				</header>
+
+				<div class="cta">
+					<CallToAction href="/about/">
+						View
+						<Icon icon="arrow-right" size="1.2em" />
+					</CallToAction>
+				</div>
+			</section>
+
+			<section class="section with-background bg-variant">
+				<header class="section-header stack gap-2 lg:gap-4">
+					<h3>Industries</h3>
 					<p>
-						I have been fortunate enough to receive praise for my work in several publications. Take
-						a look below to learn more.
+						I have been fortunate enough to work across several industries. Take
+						a look at <a href="/work/">my work</a> to learn more.
 					</p>
 				</header>
 
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
+							['Fintech', 'Human Resources', 'Healthcare', 'Information Security', 'eCommerce', 'Media', 'Oil & Gas', 'Financial Markets'].map((brand) => (
 								<li class="mention-card">
 									<p>{brand}</p>
 								</li>
@@ -88,7 +102,7 @@ const projects = (await getCollection('work'))
 						}
 					</Grid>
 				</div>
-			</section> -->
+			</section>
 		</main>
 
 		<ContactCTA />
@@ -211,7 +225,7 @@ const projects = (await getCollection('work'))
 
 	.mention-card {
 		display: flex;
-		height: 7rem;
+		height: 5rem;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
@@ -225,7 +239,7 @@ const projects = (await getCollection('work'))
 	@media (min-width: 50em) {
 		.mention-card {
 			border-radius: 1.5rem;
-			height: 9.5rem;
+			height: 7rem;
 		}
 	}
 </style>

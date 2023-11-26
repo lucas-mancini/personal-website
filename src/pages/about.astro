@@ -4,6 +4,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
+import Pill from '../components/Pill.astro';
 
 import workingPicture from '../images/profile_5.jpg';
 ---
@@ -19,43 +20,96 @@ import workingPicture from '../images/profile_5.jpg';
 			</Hero>
 
 			<section>
-				<h2 class="section-title">Background</h2>
+				<h2 class="section-title">Profile</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl
-						condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu
-						odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum
-						dui faucibus in ornare.
+						Lucas is a software engineer specialising in front end and mobile app development. He has more than a
+						decade of experience. During his career, Lucas has managed greenfield projects, led different teams,
+						worked for startups while they were still in stealth mode and for large corporations, and also contributed
+						to open-source repositories. Lucas has great communication skills, agile experience, and his knowledge is
+						backed by a computer science degree.
 					</p>
 					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
-					</p>
-					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+						He also has a track record of building applications and delivering results in startups and medium-sized
+						businesses, many of which had successful exits within 2 years after he first joined.
 					</p>
 				</div>
 			</section>
 			<section>
-				<h2 class="section-title">Education</h2>
+				<h2 class="section-title">Key strengths</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<ul>
+						<li>Highly proficient with modern JavaScript (including Node and TypeScript), C++, Java and Clojure.</li>
+						<li>Scripting with Python, Perl and Bash.</li>
+						<li>Web development, responsive design, object oriented programming, design and architectural patterns.</li>
+						<li>Functional programming concepts (immutability, pure functions, function composition, avoiding side effects, etc).</li>
+						<li>Development of graphical user interfaces and design systems. </li>
+						<li>Database schema design and querying, for both relational and NoSQL databases.</li>
+					</ul>
 				</div>
 			</section>
 			<section>
-				<h2 class="section-title">Skills</h2>
+				<h2 class="section-title">Skills and frameworks</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<div class="skills">
+						<Pill>React</Pill>
+						<Pill>CSS</Pill>
+						<Pill>React Native</Pill>
+						<Pill>Storybook</Pill>
+						<Pill>Redux</Pill>
+						<Pill>Node.js</Pill>
+						<Pill>Express</Pill>
+						<Pill>GraphQL</Pill>
+						<Pill>PostgreSQL</Pill>
+						<Pill>MongoDB</Pill>
+						<Pill>CI/CD</Pill>
+						<Pill>Next.js</Pill>
+						<Pill>Astro</Pill>
+						<Pill>Android</Pill>
+						<Pill>AWS</Pill>
+						<Pill>Git</Pill>
+						<Pill>Styled components</Pill>
+						<Pill>MUI</Pill>
+						<Pill>Scrum</Pill>
+						<Pill>Agile</Pill>
+						<Pill>web3</Pill>
+						<Pill>Webpack</Pill>
+						<Pill>Vite</Pill>
+						<Pill>Yarn</Pill>
+						<Pill>Material design</Pill>
+						<Pill>Jest</Pill>
+						<Pill>React Hook Form</Pill>
+						<Pill>React Testing Library</Pill>
+						<Pill>D3.js</Pill>
+						<Pill>Lodash</Pill>
+						<Pill>react-intl</Pill>
+						<Pill>Docker</Pill>
+						<Pill>MFC</Pill>
+					</div>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Formal education</h2>
+				<div class="content">
+					<b>Software Engineering (Ingeniería en Informática) | Universidad de Buenos Aires</b>
+					<p>
+						The engineering degree at the University of Buenos Aires in Argentina is comparable mostly to a Master of
+						Engineering. It is a 6-year degree, with all its coursework fully dedicated to Software Engineering and
+						Computer Science, ending with a (thesis-like) final project.
+					</p>
+				</div>
+				</section>
+			<section>
+				<h2 class="section-title">Languages</h2>
+				<div class="content">
+					<div class="skills">
+						<Pill>English</Pill>
+						<Pill>Spanish</Pill>
+						<Pill>Portuguese (basic)</Pill>
+					</div>
 				</div>
 			</section>
 		</main>
-
 		<ContactCTA />
 	</div>
 </BaseLayout>
@@ -90,6 +144,10 @@ import workingPicture from '../images/profile_5.jpg';
 		grid-column: 2 / 4;
 	}
 
+	.content > :global(* + *) {
+		margin-top: 1.2rem;
+	}
+
 	.content :global(a) {
 		text-decoration: 1px solid underline transparent;
 		text-underline-offset: 0.25em;
@@ -101,10 +159,16 @@ import workingPicture from '../images/profile_5.jpg';
 		text-decoration-color: currentColor;
 	}
 
+	.skills {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+	}
+
 	@media (min-width: 50em) {
 		.about {
 			display: grid;
-			grid-template-columns: 1fr 60% 1fr;
+			grid-template-columns: 1.5fr 60% 1fr;
 		}
 
 		.about > :global(:first-child) {

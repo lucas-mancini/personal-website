@@ -34,13 +34,7 @@ const projects = (await getCollection('work'))
 					title="Hi there! My name is Lucas Mancini"
 					tagline="I am a Software Development Engineer who is currently based in Sydney, Australia."
 					align="start"
-				>
-					<!-- <div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
-					</div> -->
-				</Hero>
+				/>
 
 				<Image src={profilePicture} alt="Picture of Lucas." />
 			</header>
@@ -110,10 +104,6 @@ const projects = (await getCollection('work'))
 		gap: 2rem;
 	}
 
-	.roles {
-		display: none;
-	}
-
 	.hero img {
 		aspect-ratio: 5 / 4;
 		object-fit: cover;
@@ -128,12 +118,6 @@ const projects = (await getCollection('work'))
 			grid-template-columns: 6fr 4fr;
 			padding-inline: 2.5rem;
 			gap: 3.75rem;
-		}
-
-		.roles {
-			margin-top: 0.5rem;
-			display: flex;
-			gap: 0.5rem;
 		}
 
 		.hero img {

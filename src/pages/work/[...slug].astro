@@ -35,9 +35,6 @@ const { Content } = await entry.render();
 					<a class="back-link" href="/work/"><Icon icon="arrow-left" /> Work</a>
 					<Hero title={entry.data.company} align="start">
 						<div class="details">
-							<div class="tags">
-								{entry.data.tools.map((t) => <Pill>{t}</Pill>)}
-							</div>
 							<p class="description">{entry.data.description}</p>
 						</div>
 					</Hero>
@@ -48,6 +45,9 @@ const { Content } = await entry.render();
 					{entry.data.img && <img src={entry.data.img} alt={entry.data.img_alt || ''} />}
 					<div class="content">
 						<Content />
+						<div class="tools">
+							{entry.data.tools.map((t) => <Pill>{t}</Pill>)}
+						</div>
 					</div>
 				</div>
 			</main>
@@ -75,7 +75,7 @@ const { Content } = await entry.render();
 		align-items: center;
 	}
 
-	.tags {
+	.tools {
 		display: flex;
 		gap: 0.5rem;
 	}
@@ -107,6 +107,8 @@ const { Content } = await entry.render();
 		box-shadow: var(--shadow-sm);
 		background: var(--gradient-subtle);
 		border: 1px solid var(--gray-800);
+		object-fit: cover;
+		height: 1.5rem;
 	}
 
 	.content :global(blockquote) {
@@ -146,6 +148,10 @@ const { Content } = await entry.render();
 
 		.content :global(blockquote) {
 			font-size: var(--text-2xl);
+		}
+
+		.content :global(img) {
+			height: 2.5rem;
 		}
 	}
 </style>

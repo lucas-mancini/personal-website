@@ -33,7 +33,7 @@ const { Content } = await entry.render();
 			<header>
 				<div class="wrapper stack gap-2">
 					<a class="back-link" href="/work/"><Icon icon="arrow-left" /> Work</a>
-					<Hero title={entry.data.company} align="start">
+					<Hero title={entry.data.company} tagline={entry.data.role} align="start">
 						<div class="details">
 							<p class="description">{entry.data.description}</p>
 						</div>

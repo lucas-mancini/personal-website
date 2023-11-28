@@ -24,7 +24,7 @@ tools:
   - Zeplin
 ---
 
-> [Altitude Networks (LinkedIn)](https://www.linkedin.com/company/altitude-networks)
+> [Altitude Networks (acquired by CoinList)](https://www.linkedin.com/company/altitude-networks)
 
 <br />
 

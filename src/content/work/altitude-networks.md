@@ -19,6 +19,7 @@ tools:
   - Travis
   - Amazon Cognito
   - Amazon API Gateway
+  - AWS Amplify
   - Chartist.js
   - Zeplin
 ---

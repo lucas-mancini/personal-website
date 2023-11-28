@@ -7,7 +7,7 @@ role: Senior Software Engineer
 dateRange: Jul 2020 - Oct 2022
 img: /assets/stock-2.jpg
 img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
-publishDate: 2019-12-01 00:00:00
+publishDate: 2013-12-01 00:00:00
 tools:
   - TypeScript
   - React

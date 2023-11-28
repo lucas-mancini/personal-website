@@ -123,6 +123,10 @@ const { Content } = await entry.render();
 		color: var(--gray-0);
 	}
 
+	.content :global(li:not(:last-child)) {
+		margin-bottom: 0.5rem;
+	}
+
 	.back-link,
 	.content :global(a) {
 		text-decoration: 1px solid underline transparent;

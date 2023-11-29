@@ -28,7 +28,7 @@ tools:
   - Codeship
 ---
 
-> [Zugata (acquired by CultureAmp)](https://www.cultureamp.com/blog/culture-amp-acquires-zugata)
+> [Zugata (acquired by CultureAmp)](https://www.linkedin.com/company/zugata)
 
 <br />
 

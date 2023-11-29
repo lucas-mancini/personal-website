@@ -4,8 +4,8 @@ description: |
   As a member of the Product Delivery team, I was responsible for developing new features and resolving defects on both desktop and mobile versions of the company's five primary mastheads. I operated within a stringent agile development environment, utilizing Scrum as the methodology for all projects.
 role: Front End JavaScript Developer
 dateRange: Jul 2014 - Jun 2015
-img: /assets/stock-4.jpg
-img_alt: Soft pink and baby blue water ripples together in a subtle texture.
+img: /assets/stock-3.jpg
+img_alt: Ethereal blueish ball in between waves
 publishDate: 2014-07-01 00:00:00
 tools:
   - TypeScript

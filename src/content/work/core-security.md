@@ -4,8 +4,8 @@ description: |
   Core Security provides cyber threat prevention and identity access management software products and services, including penetration testing, network traffic analysis, and threat detection. The company was acquired by Fortra.
 role: C++ / JavaScript Developer
 dateRange: Feb 2010 - Jan 2014
-img: /assets/stock-4.jpg
-img_alt: Soft pink and baby blue water ripples together in a subtle texture.
+img: /assets/stock-1.jpg
+img_alt: Iridescent ripples of a bright blue and pink liquid
 publishDate: 2010-02-01 00:00:00
 tools:
   - C++

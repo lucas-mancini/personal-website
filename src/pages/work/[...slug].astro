@@ -27,7 +27,7 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
 
-<BaseLayout title={entry.data.company} description={entry.data.description}>
+<BaseLayout title={`${entry.data.company} | Lucas Mancini`} description={entry.data.description}>
 	<div class="stack gap-20">
 		<div class="stack gap-15">
 			<header>

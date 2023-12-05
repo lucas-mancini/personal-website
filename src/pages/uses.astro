@@ -1,0 +1,113 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+import Pill from '../components/Pill.astro';
+
+import workingPicture from '../images/profile_5.jpg';
+---
+
+<BaseLayout title="Uses | Lucas Mancini" description="Learn what tools I use on a daily basis">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="Uses"
+				tagline="Here's a bunch of things I use to get all the things done."
+			>
+				<Image src={workingPicture} alt="Picture of Lucas." />
+				Inspired by Wes Bos's Uses page, here's a list of the tools and software I use regularly. Check out uses.tech to see what everyone else /uses.
+				Make sure to check out uses.tech for a list of everyone's /uses pages!
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Profile</h2>
+				<div class="content">
+					<p>
+						I am a software engineer specialising in front end and mobile app development with over a decade
+						of experience. Throughout my career, I have taken on various roles, including managing greenfield
+						projects, leading diverse teams, and working for startups in stealth mode as well as large
+						corporations. Additionally, I have actively contributed to open-source repositories. My skill set
+						encompasses excellent communication abilities, proficiency in agile methodologies, and my knowledge is
+						backed by a computer science degree.
+					</p>
+					<p>
+						I have a proven track record of building applications and delivering successful outcomes,
+						particularly in startups and medium-sized businesses, many of which achieved successful exits
+						within two years of my initial involvement.
+					</p>
+				</div>
+			</section>
+		</main>
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content > :global(* + *) {
+		margin-top: 1.2rem;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	.skills {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1.5fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>

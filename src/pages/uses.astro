@@ -5,7 +5,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
 
-import desktopSetup from '../images/desktop_setup.jpg';
+import desktopSetup from '../images/desktop_setup_3.jpg';
 import Icon from '../components/Icon.astro';
 ---
 
@@ -24,8 +24,8 @@ import Icon from '../components/Icon.astro';
 		</div>
 
 		<main class="wrapper stack gap-8">
-			<p>Inspired by Wes Bos's Uses page, here's a list of the tools and software I use regularly. Check out uses.tech to see what everyone else /uses</p>
-			<section class="box categories">
+			<p class="intro">Inspired by <a href="https://wesbos.com/uses">Wes Bos's Uses page</a>, here's a list of the tools and software I use regularly. Make sure to check out <a href="https://uses.tech">uses.tech</a> for a list of everyone's <i>/uses</i> pages!</p>
+			<section class="categories">
 				<div class="stack gap-2 lg:gap-4">
 					<Icon icon="app-window" color="var(--accent-regular)" size="2.5rem" gradient />
 					<h2>Software</h2>
@@ -40,6 +40,11 @@ import Icon from '../components/Icon.astro';
 					<Icon icon="coffee" color="var(--accent-regular)" size="2.5rem" gradient />
 					<h2>Caffeine</h2>
 					<p>Vast experience working closely with product areas for startups and large corporations, across a wide variety of industries.</p>
+				</div>
+				<div class="stack gap-2 lg:gap-4">
+					<Icon icon="toolbox" color="var(--accent-regular)" size="2.5rem" gradient />
+					<h2>Other gear</h2>
+					<p>Philips Hue lights, Omnidesk, foot rest</p>
 				</div>
 			</section>
 		</main>
@@ -57,7 +62,7 @@ import Icon from '../components/Icon.astro';
 	}
 
 	.hero img {
-		aspect-ratio: 5 / 4;
+		aspect-ratio: 6 / 4;
 		object-fit: cover;
 		object-position: top;
 		border-radius: 1.5rem;
@@ -68,7 +73,6 @@ import Icon from '../components/Icon.astro';
 		display: flex;
 		flex-direction: column;
 		gap: 3rem;
-		padding: 1.5rem;
 		background-color: var(--gray-999_40);
 	}
 
@@ -76,33 +80,44 @@ import Icon from '../components/Icon.astro';
 		font-size: var(--text-lg);
 	}
 
-	.categories p {
-		color: var(--gray-400);
+	.categories p, .intro {
+		color: var(--gray-200);
+	}
+
+	.intro {
+		margin-bottom: 1.5rem;
 	}
 
 	@media (min-width: 50em) {
 		.hero {
 			display: grid;
-			grid-template-columns: 6fr 4fr;
+			grid-template-columns: 5fr 5fr;
 			padding-inline: 2.5rem;
 			gap: 3.75rem;
 		}
 
 		.hero img {
-			aspect-ratio: 3 / 4;
+			aspect-ratio: 6.5 / 4;
 			border-radius: 4.5rem;
 			object-fit: cover;
 		}
 
 		.categories {
 			display: grid;
-			grid-template-columns: repeat(3, 1fr);
+			grid-template-columns: repeat(2, 1fr);
 			gap: 5rem;
-			padding: 2.5rem;
 		}
 
 		.categories h2 {
 			font-size: var(--text-2xl);
+		}
+
+		.categories p, .intro {
+			font-size: var(--text-lg);
+		}
+
+		.intro {
+			margin-bottom: 2.5rem;
 		}
 	}
 </style>

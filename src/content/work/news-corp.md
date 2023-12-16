@@ -1,7 +1,7 @@
 ---
 company: News Corp
 description: |
-  As a member of the Product Delivery team, I was responsible for developing new features and resolving defects on both desktop and mobile versions of the company's five primary mastheads. I operated within a stringent agile development environment, utilizing Scrum as the methodology for all projects.
+  As a member of the Product Delivery team, I was responsible for developing new features and resolving defects on both desktop and mobile versions of the company's five primary mastheads. I operated within a stringent agile development environment, utilising Scrum as the methodology for all projects.
 role: Front End JavaScript Developer
 dateRange: Jul 2014 - Jun 2015
 img: /assets/stock-3.jpg
@@ -26,7 +26,7 @@ tools:
 
 #### Achievements
 
-- Build process optimization improvements.
+- Build process optimisation improvements.
 - Successfully executed the rebranding of the Perth Now site to align with the design of the company's other mastheads.
 - Launched new Article Page, featuring a fully unified responsive design tailored for phone, tablet, and desktop devices.
 

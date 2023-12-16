@@ -1,7 +1,7 @@
 ---
 company: Altitude Networks
 description: |
-  Worked on a greenfield project, spearheading the creation of a front-end application from the ground up. The project encompassed the development of a React web application, serving as an interface to present data from serverless Amazon Lambda functions. Notably, the application includes a dashboard and various visualisation components. The company was acquired by CoinList.
+  Worked on a greenfield project, spearheading the creation of a front-end application from the ground up. The project encompassed the development of a React web application, serving as an interface to present data from serverless Amazon Lambda functions. Notably, the application included a dashboard and various visualisation components. The company was acquired by CoinList.
 role: Senior Front End JavaScript Developer
 dateRange: Sep 2018 - Jul 2019
 img: /assets/stock-3.jpg
@@ -15,7 +15,7 @@ tools:
   - SASS
   - Yarn
   - JIRA
-  - Github
+  - GitHub
   - Travis
   - Amazon Cognito
   - Amazon API Gateway
@@ -32,6 +32,6 @@ tools:
 
 - Played a pivotal role in the successful migration of the application from JavaScript to TypeScript before its initial release.
 - Formulated a comprehensive testing strategy centered around unit and integration tests, employing Jest in tandem with react-testing-library.
-- Implemented a highly interactive marketing website focused on explaining the features of the product. This static site was meticulously optimized for mobile devices, accessibility, and search engine optimization (SEO).
+- Implemented a highly interactive marketing website focused on explaining the features of the product. This static site was meticulously optimised for mobile devices, accessibility, and search engine optimization (SEO).
 
 #### Technologies and tools used

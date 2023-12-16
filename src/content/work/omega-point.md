@@ -15,7 +15,7 @@ tools:
   - Express
   - MongoDB
   - Heroku
-  - Github
+  - GitHub
   - CircleCI
   - PivotalTracker
 ---

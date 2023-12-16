@@ -24,7 +24,7 @@ tools:
   - Immutable.js
   - react-inlt
   - JIRA
-  - Github
+  - GitHub
   - Codeship
 ---
 

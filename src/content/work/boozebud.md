@@ -14,7 +14,7 @@ tools:
   - SASS
   - Yarn
   - Asana
-  - Github
+  - GitHub
   - Travis
   - AWS
   - Webpack
@@ -33,13 +33,13 @@ tools:
 
 #### Achievements
 
-- Effectively managed the Front End team (comprising approximately 3 developers), which was responsible for a complex e-commerce system. This system involved a responsive React single-page application implemented using TypeScript and Redux. We employed continuous delivery, functional programming, data analytics, artificial intelligence, and agile methodologies.
+- Effectively managed the Front End team (comprising approximately 3 developers), which was responsible for a complex e-commerce system. This system involved a responsive React single-page application implemented using TypeScript and Redux.
 - Designed a new hiring process for the Front End Team, including candidate screening and interviews.
-- Conducted performance assessments and optimizations for the application in accordance with Google's Core Web Vitals guidelines. These efforts aimed to enhance loading times, interactivity, and layout stability.
+- Conducted performance assessments and optimisations for the application in accordance with Google's Core Web Vitals guidelines. These efforts aimed to enhance loading times, interactivity, and layout stability.
 - Played a key role in the development of the "next generation" version of the system, featuring a dynamic routing mechanism and pages built using a consistent atomic design approach.
 - Contributed significantly to achieving PCI compliance for processing credit card payments. Additionally, successfully integrated new payment methods, including PayPal and Zip.
 - Orchestrated the integration of a push notification messaging system and deep links for both Android and iOS apps.
-- Implemented an automated event capture system to provide input for the machine learning algorithm utilized in the recommendation engine module.
+- Implemented an automated event capture system to provide input for the machine learning algorithm utilised in the recommendation engine module.
 - Led the implementation of a comprehensive platform-wide rebranding initiative, encompassing a new logo, font guidelines, color palette, and SVG icons.
 
 #### Technologies and tools used

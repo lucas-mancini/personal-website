@@ -17,7 +17,7 @@ tools:
   - AWS
   - Docker
   - Bootstrap
-  - Github
+  - GitHub
   - Maven
 ---
 

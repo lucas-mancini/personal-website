@@ -1,5 +1,19 @@
 # Personal website for Lucas Mancini
 
+## 🚀 Tech stack
+
+- [Astro](https://astro.build)
+- [TypeScript](https://www.typescriptlang.org)
+
+Deployed via [Vercel](https://vercel.com).
+
+## 💻 Get started
+
+```
+npm install
+npm run dev
+```
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
@@ -12,7 +26,3 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).

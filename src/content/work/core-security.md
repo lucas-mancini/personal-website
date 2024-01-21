@@ -20,7 +20,7 @@ tools:
 
 > [CoreSecurity (acquired by Fortra)](https://www.coresecurity.com/)
 
-<br/>
+<br />
 
 #### Achievements
 

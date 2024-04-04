@@ -16,6 +16,12 @@ npm run dev
 
 ## 🧞 Commands
 
+To update Astro version in the project, do the following:
+
+```
+npx @astrojs/upgrade
+```
+
 All commands are run from the root of the project, from a terminal:
 
 | Command                   | Action                                           |

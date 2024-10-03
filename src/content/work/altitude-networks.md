@@ -32,6 +32,6 @@ tools:
 
 - Played a pivotal role in the successful migration of the application from JavaScript to TypeScript before its initial release.
 - Formulated a comprehensive testing strategy centered around unit and integration tests, employing Jest in tandem with react-testing-library.
-- Implemented a highly interactive marketing website focused on explaining the features of the product. This static site was meticulously optimised for mobile devices, accessibility, and search engine optimization (SEO).
+- Implemented a highly interactive marketing website focused on explaining the features of the product. This static site was meticulously optimised for mobile devices, accessibility, and search engine optimisation (SEO).
 
 #### Technologies and tools used

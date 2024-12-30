@@ -34,6 +34,6 @@ tools:
 
 #### Achievements
 
-I developed new features for the React web application based on agile biweekly sprint commitments. I also assessed and prioritized technical debt, creating JIRA cards for necessary tasks. I revamped the application's design to adhere to enterprise standards and conducted regular code review sessions to mentor interns and team members. Additionally, I led an i18n (internationalisation) project for the React app and streamlined local development environments through Docker-based setups.
+I developed new features for the React web application based on agile biweekly sprint commitments. I also assessed and prioritised technical debt, creating JIRA cards for necessary tasks. I revamped the application's design to adhere to enterprise standards and conducted regular code review sessions to mentor interns and team members. Additionally, I led an i18n (internationalisation) project for the React app and streamlined local development environments through Docker-based setups.
 
 #### Technologies and tools used

@@ -1,11 +1,11 @@
 ---
 company: BoozeBud
 description: |
-  BoozeBud was, at some point, the fastest-growing alcohol retailer in Australia, experiencing 100% year-over-year growth for more than 5 consecutive years. We used continuous delivery, functional programming, data analytics, artificial intelligence and agile methodology.
+  BoozeBud was, at some point, the fastest-growing alcohol retailer in Australia, experiencing 100% year-over-year growth for more than 5 consecutive years. We used continuous delivery, functional programming, data analytics, artificial intelligence and agile methodology. BoozeBud was rebranded as Bottle Stop.
 role: Front End Tech Lead
 dateRange: Jul 2019 - Oct 2022
 img: /assets/stock-2.jpg
-img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
+img_alt: Iridescent ripples of a bright blue and pink liquid
 publishDate: 2019-07-01 00:00:00
 tools:
   - TypeScript
@@ -27,7 +27,7 @@ tools:
   - Agile
 ---
 
-> [BoozeBud.com](https://www.boozebud.com)
+> [BoozeBud.com (rebranded as Bottle Stop)](https://www.boozebud.com)
 
 <br />
 

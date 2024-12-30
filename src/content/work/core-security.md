@@ -24,6 +24,6 @@ tools:
 
 #### Achievements
 
-Contributed as a team member to the development of Core Impact, a renowned desktop application in the field of information security and penetration testing software. Engaged in creating new features, maintaining the graphical user interface (GUI) coded in C++ and MFC, as well as managing Python modules. Additionally, played a role in developing new reports utilizing MS SQL Server and Crystal Reports.
+Contributed as a team member to the development of Core Impact, a renowned desktop application in the field of information security and penetration testing software. Engaged in creating new features, maintaining the graphical user interface (GUI) coded in C++ and MFC, as well as managing Python modules. Additionally, played a role in developing new reports utilising MS SQL Server and Crystal Reports.
 
 #### Technologies and tools used

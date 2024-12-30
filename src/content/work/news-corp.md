@@ -5,7 +5,7 @@ description: |
 role: Front End JavaScript Developer
 dateRange: Jul 2014 - Jun 2015
 img: /assets/stock-3.jpg
-img_alt: Ethereal blueish ball in between waves
+img_alt: Iridescent ripples of a bright blue and pink liquid
 publishDate: 2014-07-01 00:00:00
 tools:
   - TypeScript

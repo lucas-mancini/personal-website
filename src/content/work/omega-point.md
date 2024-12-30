@@ -4,7 +4,7 @@ description: |
   Worked on the company's Portfolio Intelligence product, a tool that enables investment managers to understand, visualise, and optimise their portfolios. The platform is powered by React and Node (MERN stack).
 role: Senior Full Stack Developer
 dateRange: Mar 2016 - Jan 2017
-img: /assets/stock-1.jpg
+img: /assets/stock-4.jpg
 img_alt: Iridescent ripples of a bright blue and pink liquid
 publishDate: 2016-03-01 00:00:00
 tools:

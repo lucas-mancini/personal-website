@@ -5,7 +5,7 @@ description: |
 role: Senior Front End JavaScript Developer
 dateRange: Sep 2018 - Jul 2019
 img: /assets/stock-3.jpg
-img_alt: Ethereal blueish ball in between waves
+img_alt: Iridescent ripples of a bright blue and pink liquid
 publishDate: 2018-09-01 00:00:00
 tools:
   - TypeScript

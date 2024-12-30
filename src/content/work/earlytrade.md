@@ -3,8 +3,8 @@ company: Earlytrade
 description: |
   Earlytrade is an Australian fintech company that provides solutions around early payments. It facilitates on-demand access to liquidity for the supply chain.
 role: Senior Software Engineer
-dateRange: Nov 2022 - present
-img: /assets/stock-1.jpg
+dateRange: Nov 2022 - Apr 2024
+img: /assets/stock-4.jpg
 img_alt: Iridescent ripples of a bright blue and pink liquid
 publishDate: 2022-11-01 00:00:00
 tools:

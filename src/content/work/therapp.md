@@ -3,9 +3,9 @@ company: TherApp
 description: |
   Developed TherApp, a mobile application for Android phones and tablets. The client was the Australian Catholic University (ACU). This medical app was part of a larger project aimed at conducting research on children with cerebral palsy.
 role: Freelance Android Developer
-dateRange: Jun 2014 - Mar 2015
-img: /assets/stock-4.jpg
-img_alt: Soft pink and baby blue water ripples together in a subtle texture.
+dateRange: Apr 2015 - Feb 2016
+img: /assets/stock-2.jpg
+img_alt: Iridescent ripples of a bright blue and pink liquid
 publishDate: 2014-07-01 00:00:00
 tools:
   - Java

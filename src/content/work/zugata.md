@@ -30,7 +30,7 @@ tools:
 
 > [Zugata (acquired by CultureAmp)](https://www.linkedin.com/company/zugata)
 
-<br />
+<br /> 
 
 #### Achievements
 

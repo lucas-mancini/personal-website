@@ -5,22 +5,22 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
 
-import desktopSetup from '../images/desktop_setup_3.jpg';
+import desktopSetup from '../images/desktop_setup_4.jpg';
 import Icon from '../components/Icon.astro';
 ---
 
 <BaseLayout title="Uses | Lucas Mancini" description="Learn what tools I use on a daily basis">
 	<div class="stack gap-20">
 		<div class="wrapper stack gap-8 lg:gap-20">
-		<header class="hero">
-			<Hero
-				title="Uses"
-				tagline="Here's a bunch of things I use to get all the things done."
-				align="start"
-			/>
+			<header class="hero">
+				<Hero
+					title="Uses"
+					tagline="Here's a bunch of things I use to get all the things done."
+					align="start"
+				/>
 
-			<Image src={desktopSetup} alt="A working desktop with monitors, keyboard and a mouse." loading="eager" />
-		</header>
+				<Image src={desktopSetup} alt="A working desktop with monitors, keyboard and a mouse." loading="eager" />
+			</header>
 		</div>
 
 		<main class="wrapper stack gap-8">
@@ -85,7 +85,7 @@ import Icon from '../components/Icon.astro';
 	}
 
 	.hero img {
-		aspect-ratio: 6 / 4;
+		aspect-ratio: 1 / 1;
 		object-fit: cover;
 		object-position: top;
 		border-radius: 1.5rem;
@@ -120,7 +120,7 @@ import Icon from '../components/Icon.astro';
 		}
 
 		.hero img {
-			aspect-ratio: 6.5 / 4;
+			aspect-ratio: 1 / 1;
 			border-radius: 4.5rem;
 			object-fit: cover;
 		}

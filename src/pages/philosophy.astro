@@ -58,7 +58,7 @@ import yCombinatorPicture from '../images/y_combinator.webp';
 							<a href="https://react.dev/learn/you-might-not-need-an-effect" target="_blank" rel="noopener noreferrer">
 								You Might Not Need an Effect
 							</a>
-							- applies for React mostly, read this first before you decide to use any useEffect() in your code
+							{' '}-{' '}applies for React mostly, read this first before you decide to use any <span class="monospace">useEffect()</span> in your code
 						</li>
 						<li>
 							<a href="https://adamwathan.me/css-utility-classes-and-separation-of-concerns" target="_blank" rel="noopener noreferrer">
@@ -129,6 +129,10 @@ import yCombinatorPicture from '../images/y_combinator.webp';
 		grid-column-start: 1;
 		font-size: var(--text-xl);
 		color: var(--gray-0);
+	}
+
+	.monospace {
+		font-family: var(--font-mono);
 	}
 
 	.content {
